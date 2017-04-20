@@ -12,6 +12,7 @@
 		F03C072F1EA887600029A077 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03C072D1EA887600029A077 /* Main.storyboard */; };
 		F03C07311EA887600029A077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F03C07301EA887600029A077 /* Assets.xcassets */; };
 		F03C07341EA887600029A077 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03C07321EA887600029A077 /* LaunchScreen.storyboard */; };
+		F03C073C1EA8897C0029A077 /* AW+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C073B1EA8897C0029A077 /* AW+UILabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F03C07301EA887600029A077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F03C07331EA887600029A077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F03C07351EA887600029A077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F03C073B1EA8897C0029A077 /* AW+UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AW+UILabel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				F03C07301EA887600029A077 /* Assets.xcassets */,
 				F03C07321EA887600029A077 /* LaunchScreen.storyboard */,
 				F03C07351EA887600029A077 /* Info.plist */,
+				F03C073B1EA8897C0029A077 /* AW+UILabel.swift */,
 			);
 			path = LabelLongPressDemo;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F03C073C1EA8897C0029A077 /* AW+UILabel.swift in Sources */,
 				F03C072C1EA887600029A077 /* ViewController.swift in Sources */,
 				F03C072A1EA887600029A077 /* AppDelegate.swift in Sources */,
 			);
@@ -299,6 +303,7 @@
 				F03C073A1EA887600029A077 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
